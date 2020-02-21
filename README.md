@@ -3,10 +3,12 @@ PWA para adianti template 7.1
 
 # Instruções
 
-Coloque o manifest e o service work na sua tag head da pagina login.html e layoult.html
+Coloque o manifest e o service work e informações de meta na sua tag head da pagina login.html e layoult.html
 
 ```
 <link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#367fa9">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <script src="sw-register.js"></script>
 ```
 Gere os icones para android pelo link:
