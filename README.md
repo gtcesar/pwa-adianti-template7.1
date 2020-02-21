@@ -5,9 +5,10 @@ PWA para adianti template 7.1
 
 Coloque o manifest e o service work na sua tag head da pagina login.html e layoult.html
 
+```
 <link rel="manifest" href="/manifest.json">
 <script src="sw-register.js"></script>
-    
+```
 Gere os icones para android pelo link:
 https://app-manifest.firebaseapp.com/
 
@@ -17,7 +18,7 @@ https://iconifier.net/
 Os icones do android são apontados pelo arquivo de manifest.
 
 Os icones para ios sao colocados na head do arquivo login.html e layoult.html
-
+```
 <link rel="shortcut icon" href="app/templates/theme3/icons/favicon.ico" type="image/x-icon" />
 <link rel="apple-touch-icon" href="app/templates/theme3/icons/apple-touch-icon.png" />
 <link rel="apple-touch-icon" sizes="57x57" href="app/templates/theme3/icons/apple-touch-icon-57x57.png" />
@@ -28,9 +29,10 @@ Os icones para ios sao colocados na head do arquivo login.html e layoult.html
 <link rel="apple-touch-icon" sizes="144x144" href="app/templates/theme3/icons/apple-touch-icon-144x144.png" />
 <link rel="apple-touch-icon" sizes="152x152" href="app/templates/theme3/icons/apple-touch-icon-152x152.png" />
 <link rel="apple-touch-icon" sizes="180x180" href="app/templates/theme3/icons/apple-touch-icon-180x180.png" />
-
+```
 Para o splash funcionar corretamente no ios, sera preciso gerar as imagens abaixo e inserir as mesmas na tag head do arquivo login.html e layoult.html
 
+```
 <link href="app/templates/theme3/icons/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 <link href="app/templates/theme3/icons/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 <link href="app/templates/theme3/icons/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
@@ -41,3 +43,4 @@ Para o splash funcionar corretamente no ios, sera preciso gerar as imagens abaix
 <link href="app/templates/theme3/icons/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 <link href="app/templates/theme3/icons/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
 <link href="app/templates/theme3/icons/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+```
