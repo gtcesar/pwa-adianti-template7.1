@@ -1,6 +1,8 @@
 # pwa-adianti-template7.1
 PWA para adianti template 7.1
 
+# Para o PWA funcionar corretamente, o sistema precisa estar na raiz de um dominio ou subdominio com o protocolo SSL ativado ex: https://www.dominio.com.br ou https://subdominio.dominio.com.br
+
 # Instruções
 
 Coloque o manifest e o service work e informações de meta na sua tag head da pagina login.html e layoult.html
