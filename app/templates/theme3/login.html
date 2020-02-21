@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adianti Template III</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#367fa9">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    {LIBRARIES}
+    {HEAD}
+
+    <script src="sw-register.js"></script>
+
+    <link rel="shortcut icon" href="app/templates/theme3/icons/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="app/templates/theme3/icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="app/templates/theme3/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="app/templates/theme3/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="app/templates/theme3/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="app/templates/theme3/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="app/templates/theme3/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="app/templates/theme3/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="app/templates/theme3/icons/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="app/templates/theme3/icons/apple-touch-icon-180x180.png" />
+
+    <link href="app/templates/theme3/icons/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="app/templates/theme3/icons/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="app/templates/theme3/icons/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="app/templates/theme3/icons/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="app/templates/theme3/icons/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="app/templates/theme3/icons/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="app/templates/theme3/icons/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="app/templates/theme3/icons/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="app/templates/theme3/icons/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="app/templates/theme3/icons/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    
+    <link href="app/lib/include/admin.min.css?appver=701" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="app/templates/{template}/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="app/templates/{template}/css/skins/_all-skins.min.css">
+  </head>
+  <body>
+        <nav class="main-header navbar navbar-light bg-light fixed-top" role="navigation" style="margin-bottom: 0; text-align:center">
+            <a class="navbar-brand" href="http://www.adianti.com.br/framework">Adianti Framework ERP Template III</a>
+        </nav>
+        
+        <div id="wrapper" style="width:90%;margin:auto;margin-top:10px">
+            <div id="adianti_div_content"></div>
+            <div id="adianti_online_content"></div>
+            <div id="adianti_online_content2"></div>
+            
+        </div>
+        <div style="text-align:center">
+            <!--[CREATE-ACCOUNT]--> <a href="index.php?class=SystemRegistrationForm"><i class="fa fa-user-plus green" aria-hidden="true"></i> _t{Create account}</a> <!--[/CREATE-ACCOUNT]-->
+            &nbsp;&nbsp;
+            <!--[RESET-PASSWORD]--> <a href="index.php?class=SystemRequestPasswordResetForm"><i class="fa fa-eraser orange" aria-hidden="true"></i> _t{Reset password}</a> <!--[/RESET-PASSWORD]-->
+        </div>
+        
+        <a class="little-float-button bg-yellow" title="PHP Modules" href="index.php?class=SystemModulesCheckView" style="pointer-events: auto;">
+            <i class="fa fa-cog internal-float-button"></i>
+        </a>
+        
+        <!-- /#wrapper -->
+    </body>
+</html>
