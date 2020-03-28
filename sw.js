@@ -27,6 +27,8 @@ self.addEventListener('activate', function activator(event) {
   );
 });
 
+
+//contrib @Roni
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     // Try the cache
